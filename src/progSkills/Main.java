@@ -33,8 +33,9 @@ public class Main {
 
         int[] []x[];
 */
-//        int I = '2';
+//        int l = '2';
 //        System.out.println(I);
+/*
 
         int i = 0;
         boolean t = false;
@@ -42,6 +43,13 @@ public class Main {
         b = (t || ((i++) == 0));
         System.out.println(i);
         b = (f || ((i+=2) > 0));
+        System.out.println(i);
+*/
+
+        int i,j,k,l=0;
+        k = l++;
+        j = ++k;
+        i = j++;
         System.out.println(i);
 
     }
