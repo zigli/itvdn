@@ -5,6 +5,7 @@ public class Main {
         Shape shape = new Shape();
 
         System.out.println("Default values in class");
+        System.out.println("============================");
         System.out.println(shape.i);
         System.out.println(shape.b);
         System.out.println(shape.c);
