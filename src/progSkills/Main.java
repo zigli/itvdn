@@ -1,4 +1,4 @@
-package argsTest;
+package progSkills;
 
 public class Main {
 
@@ -15,13 +15,10 @@ public class Main {
             System.out.println(i - 2);
 */
 
-        for(int i = 1; i < 3; i++) {
-            for (int j = 3; j > i; j--)
-                assert i != j;
-            {
-                System.out.println(i);
-            }
-        }
+//        for(int i = 1; i < 3; i++) {
+//            for (int j = 3; j > i; j--)
+//                assert i != j; {System.out.println(i);}
+//        }
 /*
         String test = "abc";
         test = test + test;
@@ -36,7 +33,16 @@ public class Main {
 
         int[] []x[];
 */
+//        int I = '2';
+//        System.out.println(I);
 
+        int i = 0;
+        boolean t = false;
+        boolean f = false, b;
+        b = (t || ((i++) == 0));
+        System.out.println(i);
+        b = (f || ((i+=2) > 0));
+        System.out.println(i);
 
     }
 }
