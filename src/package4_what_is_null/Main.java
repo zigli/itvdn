@@ -8,9 +8,9 @@ public class Main {
         Car car1 = null;
 //        int i = null;
 
-        Integer i2 = null;
-        int i3 = i2;
-        System.out.println(i3);
+//        Integer i2 = null;
+//        int i3 = i2;
+//        System.out.println(i3);
 
         String str2 = (String) null;
 
