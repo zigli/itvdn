@@ -8,7 +8,6 @@ public class Account {
     public static void main(String[] args) {
 
         Account.courseUSDtoRUB = 67.2;
-
         Account a1 = new Account();
         a1.name = "Robert";
         a1.RUB = 2000.04;
@@ -16,7 +15,10 @@ public class Account {
         Account a2 = new Account();
         a2.name = "Carl";
         a2.RUB = 3000.04;
+    }
 
-
+    void view(){
+        System.out.println(courseUSDtoRUB);
+        System.out.println(RUB);
     }
 }
