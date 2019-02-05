@@ -5,5 +5,7 @@ public class Main {
         DerivedClass instance = new DerivedClass();
         System.out.println(instance.publicField);
         System.out.println(instance.protectedField);
+
+        instance.show();
     }
 }
