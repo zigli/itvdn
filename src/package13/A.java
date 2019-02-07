@@ -10,7 +10,7 @@ public class A {
     }
 
     A(){
-        System.out.println("In constructor A");
+        System.out.println("In constructor Aa");
     }
 
     {
@@ -19,5 +19,6 @@ public class A {
 
     public static void main(String[] args) {
         A a = new A();
+        A a1 = new A();
     }
 }
