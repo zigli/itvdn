@@ -21,6 +21,8 @@ public class Main {
         ((DerivedClass) interface2).method();
         ((DerivedClass) interface2).method1();
 
+        int a = 10;
+        double d = (int)a;
 
         BaseClass baseClass = (BaseClass) derivedClass;
         baseClass.method();
