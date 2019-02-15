@@ -1,7 +1,7 @@
 package iface8;
 
 //interface cannot be final
-public interface ITest {
+public interface ITest extends I1,I2{
     public static final int PRICE = 10;
     public abstract void move();
 
@@ -13,3 +13,6 @@ public interface ITest {
         return 5 * 10;
     }
 }
+
+interface I1{}
+interface I2{}
